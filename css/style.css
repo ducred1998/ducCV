@@ -6,7 +6,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background: lightblue;
+  background: #78c5f0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,12 +137,16 @@ body {
   background-color: #fff;
 }
 .about {
+  border-radius: 12px;
+  padding: 14px;
+  box-shadow: rgb(149 157 165 / 70%) 0px 8px 30px;
   margin-bottom: 30px;
 }
 .about:last-child {
   margin-bottom: 0;
 }
 .title2 {
+  margin-left: 15px;
   color: #003147;
   text-transform: uppercase;
   letter-spacing: 1px;
