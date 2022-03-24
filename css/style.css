@@ -197,6 +197,27 @@ p {
   font-style: 18px;
   color: #03a9f4;
 }
+.row h2 {
+  margin-left: 20px;
+  text-align: center;
+}
+.demo-button a {
+  margin-left: 90px;
+}
+.demo-button a .btn {
+  color: #fff;
+  border-radius: 60px;
+  font-weight: 600;
+  background-color: #03a9f4;
+  box-shadow: 0px 4px 1px #125679;
+  border: 1px solid #03a9f4;
+}
+.demo-button a .btn:hover {
+  transition: all 0.4s;
+  box-shadow: 0px 0px 0px #abedf0;
+  border: 1px solid #abedf0;
+  color: #0a0a0af3;
+}
 @media (max-width: 1000px) {
   .container {
     margin: 10px;
